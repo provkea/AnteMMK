@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+    <link rel="stylesheet" href="formular.css">
+</head>
+
+<body>
+    <form  action="mailto:anteprovic3@gmail.com" method="get" enctype="text/plain">
+        <label for="Ime">Ime</label>
+        <input type="text" id="ime" placeholder="Vaše ime" autofocus required>
+        <label for="Prezime">Prezime</label>
+        <input type="text" id="prezime" placeholder="Vaše prezime" required>
+        <label for="rodjendan">Datum rođenja</label>
+        <input type="date" id="rodjendan">
+        <label for="lozinka">Password</label>
+        <input type="password" id="lozinka" maxlength="15" placeholder="********" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="primjer@gmail.com" required>
+        <label for="Web">Web adresa</label>
+        <input type="url" id="web" placeholder="www.spotify.com">
+
+        <fieldset>
+            <legend>Spol</legend>
+            <input type="radio" value="M" id="M" name="spol"><label for="M">Muški</label>
+            <input type="radio" value="F" id="F" name="spol"><label for="F">Ženski</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Najdraži album Kendrick Lamara</legend>
+            <input type="radio" value="Section.80 (2011.)" id="Section.80 (2011.)" name="Albumi"><label for="Section.80 (2011.)">Section.80 (2011.)</label>
+            <input type="radio" value="Good Kid, M.A.A.D City (2012.)" id="Good Kid, M.A.A.D City (2012.)" name="Albumi"><label for="Good Kid, M.A.A.D City (2012.)">Good Kid, M.A.A.D City (2012.)</label>
+            <input type="radio" value="To Pimp A Butterfly (2015.)" id="To Pimp A Butterfly (2015.)" name="Albumi"><label for="To Pimp A Butterfly (2015.)">To Pimp A Butterfly (2015.)</label>
+            <input type="radio" value="Untitled Unmastered (2016.)" id="Untitled Unmastered (2016.)" name="Albumi"><label for="Untitled Unmastered (2016.)">Untitled Unmastered (2016.)</label>
+			<input type="radio" value="Damn (2017.)" id="Damn (2017.)" name="Albumi"><label for="Damn (2017.)">Damn (2017.)</label>
+			<input type="radio" value="Mr. Morale & the Big Steppers (2022.)" id="Mr. Morale & the Big Steppers (2022.)" name="Albumi"><label for="Mr. Morale & the Big Steppers (2022.)">Mr. Morale & the Big Steppers (2022.)</label>
+        </fieldset>
+
+        <label for="žanr">Izaberite žanr koji najčešće slušate</label>
+        <select name="žanr">
+            <option>Pop</option>
+            <option>Hip-Hop</option>
+            <option>Rock</option>
+			<option>Latin</option>
+			<option>Dance/Electronic</option>
+			<option>Indie</option>
+			<option>Country</option>
+			<option>R&B</option>
+			<option>K-pop</option>
+			<option>Metal</option>
+			<option>Soul</option>
+			<option>Punk</option>
+			<option>Blues</option>
+			<option>Classical</option>
+			<option>Funk</option>
+            <option>Ostalo</option>
+         </select>
+
+        <label for="pjevač">Najdraža pjesma</label>
+        <input type="text" id="pjesma" placeholder="Primjer: Morska Vila" required>
+
+        <label for="poruka">Poruka</label>
+        <input type="text" id="poruka" name="poruka" placeholder="Napišite nešto o svojoj najdražoj pjesmi">
+
+        <input type="reset" value="Poništi">
+        <input type="submit" value="Prihvati">
+
+     </form>
+
+</body>
+</html>
