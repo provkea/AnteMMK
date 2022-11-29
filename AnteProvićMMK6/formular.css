@@ -1,0 +1,60 @@
+body{
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	background: #FFDEAD;
+}
+
+form{
+    padding: 20px;
+    width: 500px;
+    background-color: DarkOrange;
+    border: 6px double DarkRed;
+    border-radius: 10px;
+}
+
+input, fieldset, select, legend {
+    font-size: 14px;
+    width: 97%;
+    padding: 15px;
+    margin: 10px;
+    background-color: PeachPuff;
+    border: 2px black;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background: peru;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+}
+
+fieldset input{
+    width: 10%;
+}
+
+fieldset label{
+    display: inline-block;
+    width: 80%;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    margin-left: 10px;
+    box-shadow: 3px 5px 3 px salmon;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    box-shadow: 3px 5px 3px lightgoldenrodyellow;
+}
+
+input[type="color"] {
+    height: 60px;
+    padding: 2px;
+}
+
+

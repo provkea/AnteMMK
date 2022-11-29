@@ -1,0 +1,414 @@
+body{background-color: Orange;
+
+}
+
+#naslov1{
+    background-color: SandyBrown;
+    margin-top: 30px;
+    color: lightyellow;
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{color: black;
+}
+
+#lista0{
+    list-style-type: none;
+    width: 1300px;
+	text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li{color: black;
+}
+
+#lista0 li{
+	float: left;
+    background-color: peru;
+    color: black;
+    padding: 15px 25px ;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#karijera{
+    text-align: left;
+    background-color: Peru;
+    color: black;
+    padding: 10px;
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#kontroverzije{
+    text-align: left;
+    background-color: Peru;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    margin :left
+    
+}
+
+#filmovi{
+    text-align: left;
+    background-color: Peru ;
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+id{color: black
+}
+
+#albumi{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#wikipedia{
+	font-style: bold;
+	font-size: 5px;
+}
+
+#lista1{
+    background-color: SandyBrown;
+    color:lightgoldenrodyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#aplikacije{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#lista2{
+    background-color: SandyBrown;
+    color:lightgoldenrodyellow ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* --------------------------------------------------------------------- */
+.tablica table{
+    width: 700px;
+    border-collapse: collapse;
+    border: 5px grey;
+}
+
+.tablica th{
+    text-transform: uppercase;
+    background-color: peru;
+    color: black;
+
+}
+
+.tablica tr{
+    height: 50px;
+    border-bottom: 4px black;
+}
+
+.tablica th, .tablica td{
+    text-align: center;
+    border: 2px solid black
+}
+
+#Kendrick{
+    color: red;
+    background-color: orange;
+    height: 40px;
+	text-align: left;
+}
+
+/* --------------------------------------------------------------------- */
+
+#cvijet {
+    margin: 200px 0;
+    width: 600px;
+    height: 450px;
+}
+
+#cvijet table {
+    width: 250px;
+    height: 250px;
+    float: left;
+    border: 25px solid black;
+    box-sizing: border-box;
+}
+
+#Tomato {
+    background-color: Tomato;
+    border-radius: 70px 50px 0 30px;
+}
+
+#Peru {
+    background-color: Peru;
+    border-radius: 50px 60px 20px 0;
+}
+
+#SandyBrown {
+    background-color: SandyBrown;
+    border-radius: 0 60px 55px 45px;
+}
+
+#DeepPink {
+    background-color: DeepPink;
+    border-radius: 50px 0 50px 70px ;
+}
+
+/* --------------------------------------------------------------------- */
+
+.grid div{
+width: 100px;
+height: 100px;
+box-sizing:border-box;
+border: 5px solid black;
+text-align: center;
+font-weight: bold;
+position: absolute;
+line-height: 90px;
+}
+
+.album1{
+    top: 100px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+}
+
+.album2{
+    top: 300px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: orange;
+}
+
+.album3{
+    top: 1730px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: orange;
+}
+
+.album4{
+    top: 1000px;
+    font-size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: DeepPink;
+}
+
+.album5{
+    top: 20px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: DeepPink;
+}
+
+
+.album6{
+    top: 200px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: SandyBrown;
+}
+
+.album7{
+    top:400px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: SandyBrown;
+}
+
+.album8{
+    top: 1250px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: SandyBrown;
+}
+
+.album9{
+    top: 600px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: Peru;
+}
+
+.album10{
+	  top:750px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: Peru;
+   
+}
+
+.album11{
+    top: 550px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: Tomato;
+}
+
+.album12{
+    top: 800px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: Tomato;
+}
+
+.album13{
+    top: 1330px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: Tomato;
+}
+
+
+.pisma1{
+    left: 1200px;
+    border-radius: 40%;
+}
+
+.pisma2{
+    left: 1000px;
+    border-radius: 40%;
+}
+
+.pisma3{
+    left: 210px;
+    border-radius: 40%;
+}
+
+.pisma4{
+    left: 750px;
+    border-radius: 20%;
+}
+
+.pisma5{
+    left: 100px;
+    border-radius: 20%;
+}
+
+.pisma6{
+    left:500px;
+    border-radius: 10%;
+}
+
+.pisma7{
+    left: 1100px;
+    border-radius: 30%;
+}
+
+.pisma8{
+    left: 1080px;
+    border-radius: 10%;
+}
+
+.pisma9{
+    left: 400px;
+    border-radius: 30%;
+}
+
+.pisma10{
+	left:520px;
+	border-radius: 30%;
+}
+
+.pisma11{
+	left:680px;
+	border-radius: 50%;
+}
+
+.pisma12{
+	left:150px;
+	border-radius: 50%;
+}
+
+.pisma13{
+	left:0px;
+	border-radius: 50%;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .likovi div{
+    max-width: 150px;
+        width: 150px;
+        height: 150px;
+        float: left;
+        box-shadow: 5px 5px 6px darkolivegreen;
+        border-radius: 70%;
+    }
+}
+
+/* --------------------------------------------------------------------- */
+
+
+main{
+	left; 1000px;
+    background-image: url(slike/okvir.png);
+    width: 300px;
+    height: 399px;
+    padding: 0px;
+    border: 3px solid black;
+    background-position: 50% 50%;
+    margin-top: 74px;
+    margin-left: 82px;
+}
+
+main iframe{
+    display: block;
+    width: 226px;
+    height: 317px;
+    border: black;
+    margin-top: 0px;
+    margin-left: 0px;
+	
+}
+
+aside {
+    position: center;
+    right: 100px;
+    top: 30px;
+    width: 120px;
+    height: 160px;
+    margin: 0px;
+}
+
+aside a, aside img {
+    display: block;
+    width: 100%;
+}
+
+aside a {
+    margin-bottom: 3rem;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 400px) {
+    footer {
+        flex-basis: 95%;
+        grid-template-columns: 3fr;
+    }
+}
+
+
+/* --------------------------------------------------------------------- */
